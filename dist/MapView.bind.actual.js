@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const GeoCoordinate_shared_1 = require("khrysalis/dist/location/GeoCoordinate.shared");
+const GeoCoordinate_shared_1 = require("butterfly/dist/location/GeoCoordinate.shared");
 const leaflet_1 = require("leaflet");
-const DisposeCondition_actual_1 = require("khrysalis/dist/rx/DisposeCondition.actual");
-const ObservableProperty_ext_shared_1 = require("khrysalis/dist/observables/ObservableProperty.ext.shared");
+const DisposeCondition_actual_1 = require("butterfly/dist/rx/DisposeCondition.actual");
+const ObservableProperty_ext_shared_1 = require("butterfly/dist/observables/ObservableProperty.ext.shared");
 const mapSymbol = Symbol("mapSymbol");
 let configureMap = () => {
 };
@@ -32,7 +32,7 @@ function getMapAsync(this_, action) {
     }
 }
 exports.getMapAsync = getMapAsync;
-//! Declares com.lightningkite.khrysalis.maps.bind>com.google.android.gms.maps.MapView
+//! Declares com.lightningkite.butterfly.maps.bind>com.google.android.gms.maps.MapView
 function xMapViewBind(this_, dependency, style) {
     const map = leaflet_1.map(this_);
     map.setView([0, 0], 1);
@@ -48,7 +48,7 @@ function xMapViewBind(this_, dependency, style) {
     obs.observe(this_);
 }
 exports.xMapViewBind = xMapViewBind;
-//! Declares com.lightningkite.khrysalis.maps.bindView>com.google.android.gms.maps.MapView
+//! Declares com.lightningkite.butterfly.maps.bindView>com.google.android.gms.maps.MapView
 function xMapViewBindView(this_, dependency, position, zoomLevel = 15, animate = true, style = null) {
     xMapViewBind(this_, dependency, style);
     const map = this_[mapSymbol];
@@ -76,7 +76,7 @@ function xMapViewBindView(this_, dependency, position, zoomLevel = 15, animate =
     }), DisposeCondition_actual_1.xViewRemovedGet(this_));
 }
 exports.xMapViewBindView = xMapViewBindView;
-//! Declares com.lightningkite.khrysalis.maps.bindSelect>com.google.android.gms.maps.MapView
+//! Declares com.lightningkite.butterfly.maps.bindSelect>com.google.android.gms.maps.MapView
 function xMapViewBindSelect(this_, dependency, position, zoomLevel = 15, animate = true, style = null) {
     xMapViewBind(this_, dependency, style);
     const map = this_[mapSymbol];

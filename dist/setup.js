@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const GeoCoordinate_shared_1 = require("khrysalis/dist/location/GeoCoordinate.shared");
-const GeoAddress_shared_1 = require("khrysalis/dist/location/GeoAddress.shared");
-const Geocoding_actual_1 = require("khrysalis/dist/location/Geocoding.actual");
+const GeoCoordinate_shared_1 = require("butterfly/dist/location/GeoCoordinate.shared");
+const GeoAddress_shared_1 = require("butterfly/dist/location/GeoAddress.shared");
+const Geocoding_actual_1 = require("butterfly/dist/location/Geocoding.actual");
 const rxjs_1 = require("rxjs");
-const HttpClient_actual_1 = require("khrysalis/dist/net/HttpClient.actual");
+const HttpClient_actual_1 = require("butterfly/dist/net/HttpClient.actual");
 const operators_1 = require("rxjs/operators");
-const kotlin_text_1 = require("khrysalis/dist/kotlin/kotlin.text");
+const kotlin_text_1 = require("butterfly/dist/kotlin/kotlin.text");
 const MapView_bind_actual_1 = require("./MapView.bind.actual");
 const leaflet_1 = require("leaflet");
 function setupMapBox(accessToken) {
