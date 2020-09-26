@@ -1,4 +1,4 @@
-import { GeoCoordinate } from "butterfly/dist/location/GeoCoordinate.shared";
+import { GeoCoordinate } from "butterfly/dist/location/GeoCoordinate";
 import { LatLng } from "leaflet";
-export declare function xLatLngToMaps(this_: LatLng): GeoCoordinate;
-export declare function xGeoCoordinateToButterfly(this_: GeoCoordinate): LatLng;
+export declare function xLatLngToButterfly(this_: LatLng): GeoCoordinate;
+export declare function xGeoCoordinateToMaps(this_: GeoCoordinate): LatLng;

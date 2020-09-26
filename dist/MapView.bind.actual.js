@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const GeoCoordinate_shared_1 = require("butterfly/dist/location/GeoCoordinate.shared");
+const GeoCoordinate_shared_1 = require("butterfly/dist/location/GeoCoordinate");
 const leaflet_1 = require("leaflet");
-const DisposeCondition_actual_1 = require("butterfly/dist/rx/DisposeCondition.actual");
-const ObservableProperty_ext_shared_1 = require("butterfly/dist/observables/ObservableProperty.ext.shared");
+const DisposeCondition_actual_1 = require("butterfly/dist/rx/DisposeCondition");
+const ObservableProperty_ext_shared_1 = require("butterfly/dist/observables/ObservableProperty.ext");
 const mapSymbol = Symbol("mapSymbol");
 let configureMap = () => {
 };
@@ -118,4 +118,4 @@ function xMapViewBindSelect(this_, dependency, position, zoomLevel = 15, animate
     });
 }
 exports.xMapViewBindSelect = xMapViewBindSelect;
-//# sourceMappingURL=MapView.bind.actual.js.map
+//# sourceMappingURL=MapView.bind.js.map
