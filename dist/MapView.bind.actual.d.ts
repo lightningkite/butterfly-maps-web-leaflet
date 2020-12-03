@@ -1,6 +1,6 @@
-import { MutableObservableProperty } from 'butterfly/dist/observables/MutableObservableProperty';
-import { GeoCoordinate } from 'butterfly/dist/location/GeoCoordinate';
-import { ObservableProperty } from 'butterfly/dist/observables/ObservableProperty';
+import { MutableObservableProperty } from 'butterfly-web/dist/observables/MutableObservableProperty';
+import { GeoCoordinate } from 'butterfly-web/dist/location/GeoCoordinate';
+import { ObservableProperty } from 'butterfly-web/dist/observables/ObservableProperty';
 import { Map } from 'leaflet';
 declare const mapSymbol: unique symbol;
 declare global {

@@ -1,11 +1,11 @@
 {
-  "name": "butterfly-maps-leaflet",
+  "name": "butterfly-maps-web-leaflet",
   "version": "0.1.0",
   "description": "",
   "main": "Kotlin.js",
   "types": "Kotlin.d.ts",
   "dependencies": {
-    "butterfly": "file:../butterfly-web",
+    "butterfly-web": "file:../butterfly-web",
     "rxjs": "^6.5.5",
     "sprintf-js": "^1.1.2",
     "@types/sprintf-js": "1.1.2",
@@ -17,9 +17,7 @@
     "@types/leaflet": "^1.4.4",
     "leaflet": "^1.5.1"
   },
-  "peerDependencies": {
-    "khrysalis": "file:../web"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "typescript": "^3.4.5"
   },

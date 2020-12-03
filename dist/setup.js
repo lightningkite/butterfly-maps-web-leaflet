@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const GeoCoordinate_1 = require("butterfly/dist/location/GeoCoordinate");
-const GeoAddress_1 = require("butterfly/dist/location/GeoAddress");
-const Geocoding_1 = require("butterfly/dist/location/Geocoding");
+const GeoCoordinate_1 = require("butterfly-web/dist/location/GeoCoordinate");
+const GeoAddress_1 = require("butterfly-web/dist/location/GeoAddress");
+const Geocoding_1 = require("butterfly-web/dist/location/Geocoding");
 const rxjs_1 = require("rxjs");
-const HttpClient_1 = require("butterfly/dist/net/HttpClient");
+const HttpClient_1 = require("butterfly-web/dist/net/HttpClient");
 const operators_1 = require("rxjs/operators");
-const kotlin_text_1 = require("butterfly/dist/kotlin/kotlin.text");
+const kotlin_text_1 = require("butterfly-web/dist/kotlin/kotlin.text");
 const MapView_bind_1 = require("./MapView.bind");
 const leaflet_1 = require("leaflet");
 function setupMapBox(accessToken) {

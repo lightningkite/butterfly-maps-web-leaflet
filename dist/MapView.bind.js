@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const GeoCoordinate_1 = require("butterfly/dist/location/GeoCoordinate");
+const GeoCoordinate_1 = require("butterfly-web/dist/location/GeoCoordinate");
 const leaflet_1 = require("leaflet");
-const DisposeCondition_ext_1 = require("butterfly/dist/rx/DisposeCondition.ext");
-const ObservableProperty_ext_1 = require("butterfly/dist/observables/ObservableProperty.ext");
+const DisposeCondition_ext_1 = require("butterfly-web/dist/rx/DisposeCondition.ext");
+const ObservableProperty_ext_1 = require("butterfly-web/dist/observables/ObservableProperty.ext");
 const mapSymbol = Symbol("mapSymbol");
 let configureMap = () => {
 };
